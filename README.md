@@ -1,18 +1,31 @@
-# Open-Source-FPGA-Project-2-1-MUX-on-Shrike-Lite
+# 🎛️ 2-to-1 Multiplexer (MUX) on Shrike Lite FPGA
 
-This repository contains the source code and hardware configuration for our submission for problem statement . 
+> **This repository contains the source code and hardware configuration for our submission for [Problem Statement / Insert Problem Statement Here].**
 
-It focuses on the fundamental design and implementation of a 2-to-1 Multiplexer (MUX) using the Shrike Lite FPGA development platform. 
+This project focuses on the fundamental design and implementation of a 2-to-1 Multiplexer (MUX) utilizing the **Shrike Lite FPGA** development platform. It provides a streamlined environment for mapping Verilog designs directly onto physical hardware, including the core logic for selecting between two input signals based on a single select line.
 
-The project provides a streamlined environment for mapping Verilog designs onto physical hardware.
+---
 
-It includes the logic for selecting between two input signals based on a single select line , along with functional simulation waveforms to verify timing relationships.
+## ✨ Key Highlights
 
-Key HighlightsHardware Mapping: Complete IO Planner configuration defining physical pin constraints for inputs and outputs.
+* **Complete Hardware Mapping:** Features a fully configured IO Planner that defines precise physical pin constraints for all inputs and outputs.
+* **Simulation & Verification:** Includes functional simulation waveforms to thoroughly verify timing relationships and logic accuracy before hardware deployment.
+* **Streamlined Workflow:** Offers a clear, optimized path for taking digital Verilog designs and bringing them to life on physical FPGA boards.
 
-Pull-up Configuration: Includes our hardware fix for erratic select line behavior.
+---
 
-We modified the pin constraints away from a High-Z (High Impedance) state to utilize an internal pull-up, preventing the input from picking up environmental noise.
+## 🛠️ Hardware Configuration & Signal Stability Fix
 
-📄 Note: For full project details, hardware configurations, and screenshots, please refer to the attached shrike_mux_.pdf file.
+A critical part of our implementation involved addressing physical hardware inconsistencies. 
 
+> **The Challenge:** We experienced erratic behavior on the select line due to floating inputs picking up environmental noise.
+>
+> **The Hardware Fix:** We updated the IO configuration to modify the pin constraints away from a **High-Z (High Impedance)** state. By actively utilizing the FPGA's **internal pull-up** configuration, we effectively stabilized the select line and eliminated random noise interference.
+
+---
+
+## 📄 Documentation & Resources
+
+For full project details, in-depth hardware configurations, and visual screenshots of the implementation and waveforms, please refer to our complete documentation attached in this repository:
+
+* 📎 **[`shrike_mux_.pdf`](./shrike_mux_.pdf)**
