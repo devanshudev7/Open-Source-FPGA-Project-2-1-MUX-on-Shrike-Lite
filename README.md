@@ -1,6 +1,6 @@
 # 🎛️ 2-to-1 Multiplexer (MUX) on Shrike Lite FPGA
 
-> **This repository contains the source code and hardware configuration for our submission for [Problem Statement / Insert Problem Statement Here].**
+> **This repository contains the source code and hardware configuration for our submission for 2-to-1 Multiplexer (MUX) on Shrike Lite FPGA.**
 
 This project focuses on the fundamental design and implementation of a 2-to-1 Multiplexer (MUX) utilizing the **Shrike Lite FPGA** development platform. It provides a streamlined environment for mapping Verilog designs directly onto physical hardware, including the core logic for selecting between two input signals based on a single select line.
 
