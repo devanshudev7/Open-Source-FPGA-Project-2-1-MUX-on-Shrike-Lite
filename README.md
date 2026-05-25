@@ -13,3 +13,5 @@ Key HighlightsHardware Mapping: Complete IO Planner configuration defining physi
 Pull-up Configuration: Includes our hardware fix for erratic select line behavior.
 
 We modified the pin constraints away from a High-Z (High Impedance) state to utilize an internal pull-up, preventing the input from picking up environmental noise.
+
+📄 Note: For full project details, hardware configurations, and screenshots, please refer to the attached shrike_mux_.pdf file.
